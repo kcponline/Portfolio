@@ -443,3 +443,77 @@ input[type=submit] {
 	float: left;
 	clear: right;
 }*/
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+
+	.container {
+		width: 80%;
+	}
+	.main {
+		width: 60%;
+	}
+	.image {
+		width: 100%;
+	}
+		.work {
+		width: 100%;
+	}
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+
+	.container {
+		width: 93%;
+	}
+	.main{
+		max-width: 100%;
+	}
+	.image {
+		width: 50%;
+	}
+	.sidebar {
+		float: left;
+		max-width: 100%;
+	}
+
+	.work {
+		width: 46%;
+	}
+	.work:nth-child(even) {
+	margin-right: 8%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+
+	nav {
+		clear: both;
+		float: left;
+	}
+	nav a {
+		display: block;
+		float: left;
+		border-left: none;
+		margin-bottom: 25px;
+	}
+	/*general*/
+	#name {
+		width: 100%;
+	}
+	#content-container {
+		width: 93%;
+	}
+	.main {
+		margin-top: 50px;
+	}
+	.sidebar {
+		float: left;
+		max-width: 100%;
+	}
+	/*portfolio page*/
+	.work {
+		width: 100%;
+	}
+
+}
